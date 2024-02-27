@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="shortcut icon" href="./Recursos Moviestack/Moviestack_favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-white text-2xl">
+    <Header class="my-8 h-28">
+        <div class="border-2  my-8 h-28 bg-slate-800">
+            <img width="400" src="./Assets/Imagenes/Moviestack_logotipo2.png" alt="LOGOTIPO">
+            <nav>
+                <a href="index.html">HOME</a>
+                <a class="border-2" href="movies.html">MOVIES</a>
+                <a href="#">FAVS</a>
+            </nav>
+        </div>
+    </Header>
+
+    <main class="scroll-my-3.5 m-8">
+        <img class="object-cover lg:h-96 w-full" src="./Assets/Imagenes/BANNER.jpg" alt="BANER">
+        <h1 class="text-8xl my-8">MOVIES</h1>
+        <div>
+            <form action="detalle.html" method="get">
+                <input id="busqueda" class="w-full text-black text-center" placeholder="Genero" type="text">
+                <button class="w-full border-2">search</button>
+            </form>
+        </div>
+        <section id="seccion" class=" flex-wrap gap-10 place-content-around"></section>   
+    </main>
+
+    <footer class="border-2 my-8 h-28 bg-slate-800">
+        <div>
+            MindHub-Cohort N
+        </div>
+    </footer class="border-2 my-8 h-28 bg-slate-800">
+
+    <script src="./assets/scripts/data.js"></script>
+    <script src="./assets/scripts/movies.js"></script>
+
+</body>
+</html>
